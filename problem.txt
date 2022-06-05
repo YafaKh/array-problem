@@ -1,7 +1,8 @@
-Problem C. Clever Teens
+Problem : Clever Teens
 Input file: func.in
 Output file: standard output
-Balloon Color: Gray
+* if an error happen, it's because of the path for the input or output file
+
 It is year 2022. As you can see it has many twos, but what makes is more special is that it is the second
 year for the ACPC Teens. The ACPC clever teens are getting more and more excited about competiting
 and learning new things. And this year, Bayan, the ACPC Teens director, has so many surprises up in
