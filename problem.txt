@@ -1,0 +1,28 @@
+Problem C. Clever Teens
+Input file: func.in
+Output file: standard output
+Balloon Color: Gray
+It is year 2022. As you can see it has many twos, but what makes is more special is that it is the second
+year for the ACPC Teens. The ACPC clever teens are getting more and more excited about competiting
+and learning new things. And this year, Bayan, the ACPC Teens director, has so many surprises up in
+her sleeve for the contest.
+To keep the excited clever teen busy so that Bayan can focus on her preparations, she gave them the
+following problem to solve.
+Given an array A of N integers, Bayan defined a function G(A) as the sum of the product of each
+element and its index. More formally G(A) =
+PN
+i=1(i × A[i]). For example, if A = [2,6,3,7], then G(A) =
+(2 × 1) + (6 × 2) + (3 × 3) + (7 × 4) = 51. Notice that the array starts with index 1.
+Also she defines a swap as choosing two indices i and j and replacing Aj with Ai and vice versa.
+Bayan then asks the teens, what is the maximum value of G(A) after performing at most one swap?
+One of your students told you about the problem and asked for help. You read the problem and liked it
+and decided to solve it yourself.
+Input
+The first line contains an integer T, the number of test cases.
+The first line in each test case consists of a single integer N (2 ≤ n ≤ 5000), the number of elements in
+the array.
+The second line contains N integers, the elements of the array (−109 ≤ Ai ≤ 109
+).
+Output
+For each test case, print one line containing a single integer which is the maximum value of G(A) after at
+most one swap.
